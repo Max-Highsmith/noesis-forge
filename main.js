@@ -33,7 +33,7 @@ const observer = new IntersectionObserver((entries) => {
 // Add fade-up class to animatable elements
 document.querySelectorAll(
   '.section-tag, .section-title, .about-text, .about-values, ' +
-  '.research-card, .newsletter-text, .newsletter-form, ' +
+  '.research-card, .pub-card, .newsletter-text, .newsletter-form, ' +
   '.contact-text, .contact-form, .value-card'
 ).forEach(el => {
   el.classList.add('fade-up');
